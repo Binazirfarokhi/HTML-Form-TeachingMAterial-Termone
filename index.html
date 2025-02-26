@@ -8,7 +8,8 @@
 </head>
 <body>
     <h1>HTML-FORM</h1>
-    <form action="https://www.google.com/search" method="get">
+  <div class="content">
+    <form action="https://www.google.com/search" method="get" class="search-form">
         <!-- //get something from server -->
         <!-- //serach for wmdd lanagara to see the q="" -->
         <label for="search-text">Search</label>
@@ -21,6 +22,7 @@
          <input type="reset" value="Clear">
 
     </form>
+    <hr>
     <!-- challenge :
     create another form the same as what we did
     https://api.genderize.io
@@ -40,9 +42,10 @@
         <input type="reset" value="Clear input field">
 
     </form>
+    <hr>
     <!-- another form for radio button -->
     <h2>Contact US</h2>
-     <form action="#" method="post">
+     <form action="#" method="post" class="contact-form">
         <!-- post info to server -->
          <label >First Name:
             <input type="text"  name="fname" placeholder="Firstname" required>
@@ -106,10 +109,11 @@
        <input type="submit" value="Send">
        <input type="reset" value="Clear">
      </form>
-
+<hr>
      <h3>CSS Pseudo Classes</h3>
-     <div>
+     <div class="link">
         <a href="#"> I love HTML-CSS class</a>
      </div>
+  </div>
 </body>
 </html>

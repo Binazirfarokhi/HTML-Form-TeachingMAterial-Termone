@@ -1,3 +1,41 @@
+
+h1{
+    text-align: center;
+}
+.content{
+    max-width: 900px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+h2 ,h3{
+    text-align: center;
+}
+
+    input[type="submit"] {
+        background-color: blue;
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    input[type="reset"] {
+        background-color: rgb(211, 40, 43);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    
+
+
 input, label , textarea{
     display: block;
     margin : 1rem 0;
@@ -11,6 +49,11 @@ a{
     border:3px solid red;
     padding: 1rem;
     border-radius: 30px;
+  
+}
+.link{
+    text-align: center;
+    margin-top: 50px;
 }
 a:link{
     color: blue;
