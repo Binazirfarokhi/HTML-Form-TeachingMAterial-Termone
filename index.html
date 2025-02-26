@@ -8,11 +8,16 @@
 </head>
 <body>
     <h1>HTML-FORM</h1>
-    <form action="" method="get">
-        <label for="search-text">Search</label>//which input this label for?
-        <input type="text" id="search-text">
+    <form action="https://www.google.com/search" method="get">
+        <!-- //get something from server -->
+        <!-- //serach for wmdd lanagara to see the q="" -->
+        <label for="search-text">Search</label>
+        <!-- //which input this label for? -->
+        <input type="text" id="search-text" name="q">
+        <!-- //q it is used by server by indicating q here server knows you are requesting to get the data- q stand for query-->
         <!-- <button>Submit</button> -->
-         <input type="submit" value="Submit">//submit is the text showed on browser
+         <input type="submit" value="Submit">
+         <!-- //submit is the text showed on browser -->
          <input type="reset" value="Clear">
 
     </form>
