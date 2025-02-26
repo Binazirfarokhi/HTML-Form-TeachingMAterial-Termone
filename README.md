@@ -18,3 +18,4 @@ Submit Button: input type="submit"
 
 --------------------- now let's create a form  together
 dialog is for pop0up window
+=------always add label even if you have placeholders
